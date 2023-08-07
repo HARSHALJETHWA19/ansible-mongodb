@@ -29,5 +29,3 @@
     password: "{{ mongodb_backup_password }}"
     roles:
       - { db: "admin", role: "backup" }
----
-# tasks file for mongodb_users
