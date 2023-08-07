@@ -97,5 +97,4 @@
     backup: yes
   notify: 
     - Restart MongoDB Service
----
 # tasks file for mongodb
