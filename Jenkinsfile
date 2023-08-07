@@ -8,7 +8,7 @@ pipeline {
       }  
       stage('Execute Ansible') {
         steps {
-           ansiblePlaybook credentialsId: 'ansible', disableHostKeyChecking: true, installation: 'ansible-copsc', inventory: 'hosts', playbook: 'mongo-db.yaml'
+           ansiblePlaybook credentialsId: 'ansible', disableHostKeyChecking: true, installation: 'ansible-copsc', inventory: 'hosts', playbook: 'Mongo-db.yaml'
         }  
       }
     }
